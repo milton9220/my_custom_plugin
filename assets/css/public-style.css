@@ -1,0 +1,60 @@
+#milton-testimonial-form .field-container {
+    position: relative;
+    margin-bottom: 20px
+}
+#milton-testimonial-form .field-container input{
+    height: 45px;
+    width: 100%;
+    padding: 5px 20px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+}
+#milton-testimonial-form .field-container textarea{
+    height: 110px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+}
+#milton-testimonial-form .field-msg {
+    display: none;
+    position: absolute;
+    left: 2px;
+    bottom: -14px;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em
+}
+#milton-testimonial-form .field-msg.show {
+    display: block
+}
+#milton-testimonial-form .error {
+    color: #901313
+}
+#milton-testimonial-form .success {
+    color: #2f812f
+}
+#milton-testimonial-form .btn{
+    padding: 10px 20px;
+    background-color: #2f812f;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#milton-testimonial-form .text-center{
+    position: relative;
+}
+.rating{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    padding-left: 0;
+}
+.rating li{
+    cursor: pointer;
+}
+.rating li .dashicons{
+    color: gray;
+}

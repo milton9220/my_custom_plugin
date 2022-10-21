@@ -1,0 +1,19 @@
+{
+    "name": "walton/milton-plugin",
+    "description": "Awesome starter plugin",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "MiltonPlugin\\Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "milton9220",
+            "email": "monjurhasan105142@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
